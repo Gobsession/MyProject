@@ -1,0 +1,95 @@
+/*sub-nav*/
+.sub-nav {
+    height: 50px;
+    background: #ffffff;
+    width: 100%;
+    line-height: 50px;
+}
+.sub-nav ul {
+    width: 1200px;
+    margin: 0 auto;
+}
+.sub-nav ul li {
+    float: left;
+    color: #333;
+    font-size: 14px;
+    padding-right: 30px;
+}
+.sub-nav ul li.active a {
+    color: #ff464e;
+}
+.sub-nav ul li.cut-line {
+    color: #ccc;
+    padding-right: 15px;
+}
+
+/*brand*/
+.brand-bar {
+    height: 200px;
+    background: url("../img/banner_all.jpg") no-repeat;
+    background-position: top center !important;
+}
+
+/*main*/
+.main {
+    width: 1200px;
+    background: #f6f6f6;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.main .new-brand .brand-normal {
+    background: #ffffff;
+    margin-bottom: 20px;
+    padding: 0 2px 20px 0px;
+}
+.new-brand .brand-normal .brand-title {
+    height: 88px; 
+    cursor: pointer;
+}
+.new-brand .brand-normal .brand-logo {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+.new-brand .brand-normal .brand-con {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+.brand-normal .brand-con .brand_title {
+    font-size: 20px;
+    color: #333333;
+}
+.brand-normal .brand-con p {
+    font-size: 14px;
+    color: #ff464e; 
+}
+.brand-normal .brand-right {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: right;
+    float: right;
+    width: 200px;
+    line-height: 32px;
+    padding-right: 20px;
+}
+.brand-normal .brand-right .go-brand {
+    color: #ff464e;
+    border: #ff464e 1px solid;
+    border-radius: 12px;
+    padding: 4px 18px;
+}
+.brand-normal .brand-right .brand_arrow_more {
+    width: 9px;
+    height: 9px;
+    background: url("../img/more.gif") no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin-left: 2px;
+}
+.main .page {
+    background: #f6f6f6;
+}

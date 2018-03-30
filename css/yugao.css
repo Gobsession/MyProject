@@ -1,0 +1,118 @@
+body {
+    background: #f6f6f6;
+}
+.main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #ffffff;
+}
+.main .advance-nav {
+    padding: 10px 0;
+    text-align: center;
+}
+.main .kaiqiang {
+    height: 36px;
+    padding-left: 14px;
+    margin: 20px 0 50px;
+}
+.main .kaiqiang .kaiqiang-con {
+    height: 35px;
+    border-bottom: 1px #bfbfbe solid;
+    position: relative;
+}
+.main .kaiqiang .kaiqiang-btn-box {
+    padding: 0 14px;
+    background: #ffffff;
+    position: absolute;
+    left: 50%;
+    bottom: -16px;
+    margin-left: -120px;
+}
+.main .kaiqiang .kaiqiang-btn {
+    width: 208px;
+    line-height: 30px;
+    background:#f9f9f9;
+    border: 1px#d4d4d4 solid;
+    font-size: 14px;
+    color: #66667a;
+    border-radius: 15px;
+    text-align: center;
+}
+.main .tom-btns {
+    width: 900px;
+    padding: 50px 0 30px 0;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.main .tom-btns .btns {
+    border: 1px #ff464e solid;
+    height: 58px;
+    padding: 0 35px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 58px;
+    border-radius: 3px;
+}
+.main .tom-btns .btns.login-btn {
+    background: #ffffff;
+    color: #333333;
+}
+.tom-btns .btns.login-btn span {
+    color:#3399d4;
+    text-decoration: underline;
+}
+.tom-btns .or {
+    background: url("../img/or.gif") no-repeat;
+    width: 32px;
+    height: 32px;
+    margin: 14px 20px 0;
+}
+.tom-btns .btns.download-btn {
+    background: #ff464e;
+    color: #ffffff;
+    position: relative;
+}
+.tom-btns .btns.download-btn span {
+    color:#ffff99;
+    text-decoration: underline;
+}
+.tom-btns .btns.download-btn .juan_code {
+    background: url("../img/app-code-juan.png") no-repeat 5px 5px #ffffff;
+    position: absolute;
+    top: -36px;
+    right: -150px;
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+.tom-btns .btns.download-btn .juan_code .arr-icon {
+    color: #fff;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 14px;
+    line-height: 14px;
+    position: absolute;
+    left: -7px;
+    text-align: center;
+    top: 56px;
+    width: 12px;
+}
+.shopping .item .price-current {
+    color: #008800;
+}
+.shopping .item .yugao-time {
+    float: right;
+    width: 68px;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    font-size: 12px;
+    background: #84C251;
+    text-align: center;
+    margin-top: 6px;
+    border-radius: 2px;
+    margin-right: -2px;
+}

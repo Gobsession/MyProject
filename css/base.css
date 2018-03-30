@@ -1,0 +1,402 @@
+/*toolbar*/
+#toolbar {
+    font-size: 12px;
+    height: 30px;
+    background: #f6f6f6;
+    line-height: 30px;
+}
+#toolbar .toolbar-right {
+    margin-right: 90px;
+}
+#toolbar .login-show {
+    color: #e2e2e2;
+    float: left;
+}
+#toolbar .toolbar-right a {
+    margin-left: 15px;
+    color: #000000;
+}
+#toolbar .toolbar-right a:hover {
+    color: #ff464e;
+}
+#toolbar .login-show #nav-reg {
+    color: #ff464e;
+    margin: 0 15px;
+}
+#toolbar .bag-show {
+    float: left;
+    margin-left: 15px;
+}
+#toolbar .bag-show:hover {
+    background: #ffffff;
+}
+#toolbar .bag-show a {
+    display: block;
+    margin: 0;
+}
+#toolbar .bag-show a:hover {
+    color: #000000;
+}
+#toolbar .bag-show i {
+    color: #ff464e;
+    margin: 0 5px;
+}
+#toolbar .bag-show em {
+    background: none repeat scroll 0 0 #ff464e;
+    border-radius: 15px;
+    color: #fff;
+    display: inline;
+    font-family: "宋体";
+    height: 18px;
+    line-height: 18px;
+    margin: 5px 15px 0 5px;
+    text-align: center;
+    width: 18px;
+    float: left;
+    font-style: normal;
+}
+#toolbar .bag-show .fenge {
+    color: #e2e2e2;
+}
+#toolbar .other-show {
+    float: left;
+}
+
+/*header*/
+.header {
+    background: #ffffff;
+}
+.header .header-top {
+    width: 1200px;
+    position: relative;
+    height: 85px;
+    margin: 0 auto;
+}
+.header .header-top .logo {
+    display: block;
+    position: absolute;
+    top: 17px;
+}
+.header .header-top .protec {
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 25px;
+    right: 320px;
+}
+.header-top .protec li {
+    float: left;
+    position: relative;
+    padding: 0 20px;
+    background: url("../img/shu.gif") no-repeat;
+    background-position: center right;
+}
+.header-top .protec .no-bg {
+    background: none;
+}
+.header-top .protec img {
+    position: absolute;
+    top: 7px;
+    left: 20px;
+}
+.header-top .protec .text {
+    margin-left: 42px;
+    color: #767676;
+    font-size: 18px;
+}
+
+.header-top .search {
+    position: absolute;
+    height: 35px;
+    top: 25px;
+    right: 0;
+}
+.header-top .search-area {
+    width: 180px;
+    height: 25px;
+    padding: 5px 10px;
+    background: #efefef;
+}
+.header-top .search-area .text {
+    border: none;
+    background: #efefef;
+    outline: none;
+}
+.header-top .search-btn .smt {
+    width: 37px;
+    height: 35px;
+    border: none;
+    background: url("../img/search.jpg") no-repeat;
+}                                                                                                                                 
+.header-top .search-area, .header-top .search-btn {
+    float: left;
+}
+
+/*头部导航*/
+.header .mainNav {
+    width: 100%;
+    height: 44px;
+    border-bottom: 2px solid #ff464e;
+}
+.header .mainNav .nav {
+    width: 1200px;
+    height: 44px;
+    margin: 0 auto;
+}
+.header .mainNav .nav-list {
+    height: 44px;
+}
+.mainNav .nav-list li {
+    float: left;
+}
+.mainNav .nav-list a {
+    display: block;
+    font-size: 14px;
+    padding: 13px 25px;
+}
+.mainNav .nav-list a.current{
+    background: #ff464e;
+    color: #ffffff;
+    border-radius: 6px 6px 0 0;
+}
+.mainNav .nav-list .phone {
+    padding: 0 14px;
+    line-height: 45px;
+}
+.mainNav .nav-list .icon-phone {
+    color: #ff464e;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+/*今日新品*/
+.shopping {
+    width: 1184px;
+    margin: 0 auto;
+    padding-left: 16px;
+    background: #ffffff;
+}
+.shopping .shop-list li {
+    float: left;
+    margin-right: 16px;
+}
+.shopping .shop-list .item {
+    display: block;
+}
+.shopping .shop-list .item img {
+    max-width: 220px;
+    max-height: 220px;
+}
+.shopping .shop-price {
+    width: 220px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 10px 0px 8px;
+    background: #fff;
+    box-sizing: border-box;
+}
+.shopping .shop-price .price-current {
+    color: #ff464e;
+    font-size: 18px;
+    font-family: Arial;
+}
+.shopping .shop-price em {
+    font-style: normal;
+}
+.shopping .shop-price .price-old {
+    font-size: 14px;
+    margin: 2px 0 0 5px;
+    color: #bbbbbb;
+    text-decoration: line-through;
+}
+
+.shopping .shop-title {
+    width: 220px;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 10px;
+    font-weight: normal;
+    color: #333;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+    letter-spacing: 0;
+}
+.shopping .shop-title a {
+    display: inline-block;
+    color: #333;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.shopping .shop-title .sold {
+    color: #bbbbbb;
+    font-size: 12px;
+    text-align: right;
+}
+
+/*page*/
+.page {
+    width: 1200px;
+    padding: 30px 0 45px 0;
+    margin: 0 auto;
+    background: #ffffff;
+}
+.page .page-list {
+    width: 377px;
+    margin: 0 auto;
+}
+.page .page-list li {
+    float: left;
+    margin-left: 1px;
+}
+.page .page-list a {
+    display: block;
+    color: #919191;
+    background: #ffffff;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 1px 1px 0px rgba(204, 204, 204, 0.7);
+}
+.page .page-list a:hover {
+    background: #ff464e;
+    color: #ffffff;
+}
+.page .page-list a.current-page {
+    background: #ff464e;
+    color: #ffffff;
+}
+.page .page-list .prev-page {
+    color: #bbbbbb;
+    font-weight: normal;
+    border-radius: 20px 0 0 20px;
+    box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.7);
+}
+.page .page-list .next-page {
+    border-radius: 0 20px 20px 0;
+    box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.7);
+}
+
+.foot {
+    width: 100%;
+    margin-top: 40px;
+    background: #f9f9f9;
+    border-top: #ff464e solid 3px;
+}
+.foot .foot-con {
+    width: 1100px;
+    padding: 0 50px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.foot .foot-con .foot-top {
+    padding-top: 25px;
+}
+.foot-con .foot-top .app-erweima {
+    width: 90px;
+}
+.foot-top .app-erweima .app-pic {
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    background: url("../img/app-erweima.png") no-repeat;
+}
+.foot-top .app-erweima .app-text {
+    text-align: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.foot-top .con-info {
+    padding-left: 65px;
+}
+.foot-top .con-info dl {
+    width: 200px;
+    float: left;
+}
+.foot-top .con-info dt {
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 7px;
+}
+.foot-top .con-info a {
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 12px;
+}
+.foot-top .con-info i {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #c6c6c6;
+    display: inline-block;
+    margin-right: 5px;
+    float: left;
+    margin-top: 8px;
+}
+.foot-top .con-info .help-info {
+    width: 100px;
+}
+
+.foot-top .kf-phone {
+    margin-top: 35px;
+}
+.foot-top .kf-phone .service {
+    display: block;
+    width: 86px;
+    height: 35px;
+    background: url("../img/service_add.gif") no-repeat;
+    background-position: 0 -52px;
+}
+.foot-top .kf-phone .service-timer {
+    padding-left: 10px;
+    width: 65px;
+}
+.foot-top .kf-phone p {
+    color: #919191;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.foot-con .foot-links {
+    height: 20px;
+    padding: 10px 0px;
+    border-bottom: 1px dotted #ccc;
+    color: #999999;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.foot-con .foot-links .links-list-box {
+    width: 970px;
+    height: 20px;
+}
+.foot-con .foot-links .links-list a {
+    margin-right: 10px;
+    font-size: 12px;
+    color: #999999;
+}
+.foot-con .foot-links .more {
+    font-size: 12px;
+    color: #999999;
+}
+.foot-con .ft-company {
+    text-align: center;
+    padding-top: 20px;
+    color: #c6c6c6;
+    font-size: 12px;
+}
+.foot-con .ft-company a {
+    color: #c6c6c6;
+}
+
+.foot-con .foot-logo {
+    text-align: center;
+    padding-top: 10px;
+}
+.foot-con .foot-logo img {
+    margin-right: 27px;
+}

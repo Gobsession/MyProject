@@ -1,0 +1,39 @@
+/*样式重置*/
+html, body, ul, h1, h3, input, dl, dd, p {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    height: 100%;
+    background: #f6f6f6;
+}
+li {
+    list-style: none;
+}
+img {
+    border: 0;
+    vertical-align: middle
+}
+a {
+    color: #5e5e5e;
+    text-decoration: none;
+}
+
+
+.clear:after{
+    content:" ";
+    clear: both;
+    display: block;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+.clear {
+    zoom: 1;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}

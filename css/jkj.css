@@ -1,0 +1,14 @@
+body {
+    background: #ffffff;
+}
+.shop-gd {
+    background: url("../img/banner_jkj.jpg") no-repeat;
+    height: 200px;
+    background-position: top center;
+}
+.main {
+    background: #ffffff;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
