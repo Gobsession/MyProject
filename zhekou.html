@@ -1349,16 +1349,80 @@
             </div>
         </div>
     </div>
+    <!--side-->
+    <div class="side">
+        <div class="side-box">
+            <ul class="side-oper">
+                <li class="normal side-user">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-user"></i>
+                    </a>
+                    <div class="side-login">
+                        <div class="side-login-box">
+                            <a class="pic" href="#">
+                                <img src="img/default-60.jpg" />
+                            </a>
+                            <p class="txt">快来
+                                <a href="login.html">登录</a>吧，么么哒！</p>
+                        </div>
+                        <i class="close">×</i>
+                    </div>
+                </li>
+                <li class="normal side-cart">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-cart"></i>
+                        <em class="num">0</em>
+                    </a>
+                </li>
+                <li class="normal side-love">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-love"></i>
+                    </a>
+                    <div class="tab-tips">
+                        我的收藏
+                    </div>
+                </li>
+                <li class="normal side-juan">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-juan"></i>
+                    </a>
+                    <div class="tab-tips">
+                        我的优惠卷
+                    </div>
+                </li>
+            </ul>
+            <ul class="side-oper other">
+                <li class="normal side-wenti">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-wenti"></i>
+                    </a>
+                    <div class="tab-tips">
+                        意见反馈
+                    </div>
+                </li>
+                <li class="normal side-code">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-erweima"></i>
+                    </a>
+                    <div class="code-box">
+                        <p class="code"></p>
+                        <p class="txt" style="text-align:center;font-size: 14px; color:#666666">随时逛 及时抢</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/base.js"></script>
     <script>
         $(window).scroll(function () {
             console.log($(window).scrollTop())
-            if($(window).scrollTop() > $(".brand-bar").offset().top) {
+            if ($(window).scrollTop() > $(".brand-bar").offset().top) {
                 $(".sub-nav").addClass("fix-top");
             } else if ($(window).scrollTop() < $(".brand-bar").offset().top) {
                 console.log("assad");
-                $(".sub-nav").removeClass("fix-top"); 
+                $(".sub-nav").removeClass("fix-top");
             }
         });
     </script>
