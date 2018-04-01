@@ -1349,6 +1349,19 @@
             </div>
         </div>
     </div>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script>
+        $(window).scroll(function () {
+            console.log($(window).scrollTop())
+            if($(window).scrollTop() > $(".brand-bar").offset().top) {
+                $(".sub-nav").addClass("fix-top");
+            } else if ($(window).scrollTop() < $(".brand-bar").offset().top) {
+                console.log("assad");
+                $(".sub-nav").removeClass("fix-top"); 
+            }
+        });
+    </script>
 </body>
 
 </html>

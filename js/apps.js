@@ -2,7 +2,7 @@ $(function () {
     var index = 0;
     var time = null;
     $(".phone-con img").fadeOut();
-    $(".phone-con img:first").addClass("current").fadeIn();
+    $(".phone-con img:first").fadeIn();
     $(".prev").click(function () {
         index--;
         if (index < 0) {
@@ -29,8 +29,6 @@ $(function () {
     }
     )
     function slider() {
-        $(".phone-con img").removeClass("current");
-        $(".phone-con img").eq(index).addClass("current");
         $(".phone-con img").fadeOut();
         $(".phone-con img").eq(index).fadeIn();
     }

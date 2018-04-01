@@ -148,6 +148,23 @@
 }
 .mainNav .nav-list li {
     float: left;
+    position: relative;
+}
+.mainNav .nav-list li .code-tips {
+    position: absolute;
+    left: -28px;
+    top: 46px;
+    background-color: #fff;
+    border: #e2e2e2 solid 1px;
+    padding: 5px;
+    width: 148px;
+    height: 173px;
+    z-index: 100;
+}
+.mainNav .nav-list li .code {
+    background: url("../img/jp-app-90.png") no-repeat;
+    height: 148px;
+    width: 148px;
 }
 .mainNav .nav-list a {
     display: block;
@@ -399,4 +416,158 @@
 }
 .foot-con .foot-logo img {
     margin-right: 27px;
+}
+
+/*side*/
+.side {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 36px;
+    z-index: 102;
+    background-color: #444;
+}
+.side .side-box {
+    background: #444;
+    height: 100%;
+    position: relative;
+    z-index: 101;
+    color: #fff;
+}
+.side .side-box .side-oper {
+    position: absolute;
+    top: 120px;
+}
+.side .side-box .side-oper.other {
+    position: absolute;
+    top: auto;
+    bottom: 38px;
+}
+.side .side-box .side-oper .normal {
+    margin-top: 15px;
+    position: relative;
+}
+.side .side-box .side-oper .normal.side-user {
+    margin-top: 0;
+}
+.side .side-box .side-oper .normal .tab-tips {
+    background-color: #444;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    display: none;
+    height: 36px;
+    font-size: 12px;
+    line-height: 36px;
+    position: absolute;
+    right: 36px;
+    text-align: center;
+    top: 0;
+    width: 90px;
+    border-radius: 2px;
+}
+.side-box .side-oper .normal.side-user .side-login {
+    line-height: 36px;
+    position: absolute;
+    right: 36px;
+    display: none;
+    text-align: center;
+    top: 0;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    color: #666;
+    background: #fff;
+    width: 220px;
+    height: 106px;
+    padding: 20px 0;
+    z-index: 10;
+}
+.side-oper .normal.side-user .side-login .pic img {
+    border: #eee solid 2px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.side-box .side-oper .normal.side-user .side-login .txt {
+    color: #333;
+    background: #fff3f5;
+    border-top: #ffd8d8 solid 1px;
+    border-bottom: #ffd8d8 solid 1px;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+.side-oper .normal.side-user .side-login .txt a {
+    color: #ff464e;
+}
+.side-box .side-oper .normal.side-user .side-login .close {
+    color: #ccc;
+    display: block;
+    font-style: normal;
+    width: 10px;
+    height: 10px;
+    font-size: 16px;
+    line-height: 10px;
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+.normal.side-user .side-login .pic {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+}
+.side .side-box .side-oper .normal.side-cart {
+    border-top: #222222 solid 1px;
+    border-bottom: #222222 solid 1px;
+}
+.side-box .side-oper .normal a.links {
+    width: 36px;
+    padding: 9px 0;
+    text-align: center;
+    display: block;
+    color:#dddddd;
+}
+.side-oper .normal .links .iconfont {
+    font-size: 22px;
+}
+.side-oper .normal .links .icon-cart {
+    display: block;
+    width: 16px;
+    height: 78px;
+    background: url("../img/sidebar.png") no-repeat;
+    margin-left: 9px;
+}
+.side-oper .normal .links .num {
+    background: #ff464e;
+    border-radius: 15px;
+    font-size: 12px;
+    font-style: normal;
+    color: #fff;
+    display: block;
+    height: 18px;
+    line-height: 18px;
+    width: 18px;
+    text-align: center;
+    margin: 5px 0 0 9px;
+}
+.side-oper .normal.side-code .code-box {
+    position: absolute;
+    top: -102px;
+    left: -160px;
+    display: none;
+    width: 148px;
+    z-index: 12;
+    background-color: #fff;
+    border: #e2e2e2 solid 1px;
+    padding: 5px;
+    width: 148px;
+    height: 173px;
+}
+.side-oper .normal.side-code .code {
+    width: 148px;
+    height: 148px;
+    background: url("../img/jp-app-90-new.png") no-repeat;
 }

@@ -3,7 +3,7 @@ $(function () {
     var index = 0;
     var time = null;
     $(".slider-wrapper .slider-item").fadeOut();
-    $(".slider-wrapper .slider-item:first").addClass("current").fadeIn();
+    $(".slider-wrapper .slider-item:first").fadeIn();
     $(".prev").click(function () {
         index--;
         if (index < 0) {
@@ -41,8 +41,6 @@ $(function () {
     }
     )
     function slider() {
-        $(".slider-wrapper .slider-item").removeClass("current");
-        $(".slider-wrapper .slider-item").eq(index).addClass("current");
         $(".slider-dot a").removeClass("current");
         $(".slider-dot a").eq(index).addClass("current");
         $(".slider-wrapper .slider-item").fadeOut();

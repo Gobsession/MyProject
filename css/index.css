@@ -67,9 +67,6 @@
 .banner-list .slider-container .slider-item{
     position: absolute;
 }
-.banner-list .slider-container .slider-item.current {
-    z-index: 2;
-}
 .banner-list .slider-container .slider-dot {
     position: absolute;
     bottom: 6px;
@@ -101,6 +98,9 @@
 }
 .banner-r ul li {
     float: left;
+}
+.banner-r ul li:hover {
+    opacity: 0.8;
 }
 
 /*品牌特卖*/

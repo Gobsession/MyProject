@@ -62,9 +62,6 @@ body {
     top: 106px;
     width: 278px;
 }
-.con-right .phone-con img.current {
-    z-index: 2;
-}
 .con-right .phone-con span {
     width: 56px;
     height: 56px;

@@ -15,8 +15,8 @@
     <div id="toolbar">
         <div class="toolbar-right fr">
             <div class="login-show">
-                <a href="javascript:;">登录</a>
-                <a href="javascript:;" id="nav-reg">免费注册</a>
+                <a href="login.html">登录</a>
+                <a href="register.html" id="nav-reg">免费注册</a>
                 |
                 <a href="javascript:;">我的订单</a>
                 <a href="javascript:;">商家入驻</a>
@@ -84,11 +84,17 @@
                     <li>
                         <a href="yugao.html">即将上线</a>
                     </li>
-                    <li>
+                    <li class="phone-box">
                         <a class="phone" href="apps.html">
                             <i class="iconfont icon-phone"></i>
                             <span>手机版</span>
                         </a>
+                        <div id="new-qcodes" class="code-tips" style="display: none">
+                            <div class="code-box">
+                                <p class="code"></p>
+                                <p class="txt" style="text-align:center;font-size: 14px">随时逛 及时抢</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -196,7 +202,7 @@
             <div class="slider-container">
                 <a class="prev" href="javascript:;">&lt;</a>
                 <ul class="slider-wrapper">
-                    <li class="slider-item current">
+                    <li class="slider-item">
                         <a href="javascript:;">
                             <img src="img/slider-1.png" />
                         </a>
@@ -1389,8 +1395,73 @@
             </div>
         </div>
     </div>
+
+    <!--side-->
+    <div class="side">
+        <div class="side-box">
+            <ul class="side-oper">
+                <li class="normal side-user">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-user"></i>
+                    </a>
+                    <div class="side-login">
+                        <div class="side-login-box">
+                            <a class="pic" href="#">
+                                <img src="img/default-60.jpg" />
+                            </a>
+                            <p class="txt">快来
+                                <a href="login.html">登录</a>吧，么么哒！</p>
+                        </div>
+                        <i class="close">×</i>
+                    </div>
+                </li>
+                <li class="normal side-cart">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-cart"></i>
+                        <em class="num">0</em>
+                    </a>
+                </li>
+                <li class="normal side-love">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-love"></i>
+                    </a>
+                    <div class="tab-tips">
+                        我的收藏
+                    </div>
+                </li>
+                <li class="normal side-juan">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-juan"></i>
+                    </a>
+                    <div class="tab-tips">
+                        我的优惠卷
+                    </div>
+                </li>
+            </ul>
+            <ul class="side-oper other">
+                <li class="normal side-wenti">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-wenti"></i>
+                    </a>
+                    <div class="tab-tips">
+                        意见反馈
+                    </div>
+                </li>
+                <li class="normal side-code">
+                    <a class="links" href="javascript:;">
+                        <i class="iconfont icon-erweima"></i>
+                    </a>
+                    <div class="code-box">
+                        <p class="code"></p>
+                        <p class="txt" style="text-align:center;font-size: 14px; color:#666666">随时逛 及时抢</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/base.js"></script>
 </body>
 
 </html>
